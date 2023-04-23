@@ -1,4 +1,8 @@
-Might need some fonts for polybar // pretty much it
+//I'm using picom-git for the blur and transparency
+
+picom-git
+
+//Might need some fonts for polybar // pretty much it
 
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
