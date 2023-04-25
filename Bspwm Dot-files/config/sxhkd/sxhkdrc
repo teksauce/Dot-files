@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	kitty
 
 # program launcher
 super + d
@@ -182,8 +182,12 @@ super + Print
 super + w 
   firefox
 
-super + {_,shift + }Return
+super + n
   thunar  
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
+
+# Scratchpad
+alt + Return
+  ~/.config/bspwm/scripts/scratchpad

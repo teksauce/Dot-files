@@ -19,8 +19,11 @@ sudo touch (filename)
 Utility Keyboard Shortcuts
 ###################
 
--> Open terminal (xfce4-terminal)
+-> Open terminal (kitty)
 Super + Return
+
+->Open Scratchpad terminal 
+alt + return
 
 -> App launcher (Rofi)
 Super + d
