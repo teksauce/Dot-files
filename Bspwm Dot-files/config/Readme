@@ -6,3 +6,17 @@ picom-git
 
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
+
+keybinds
+super + return
+  kitty
+
+alt + return
+  scratchpad kitty
+
+super + n
+  thunar
+  
+super + f1 
+  for other keybinds using rofi
+
