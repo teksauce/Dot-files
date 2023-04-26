@@ -191,3 +191,7 @@ super + F1
 # Scratchpad
 super + shift + Return
   ~/.config/bspwm/scripts/scratchpad
+
+# Spotify tui
+super + shift  + p
+  ~/.config/bspwm/scripts/spt
