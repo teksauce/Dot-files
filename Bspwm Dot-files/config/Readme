@@ -8,8 +8,11 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 
 keybinds
+kitty
 super + return
-  kitty
+
+1Password 
+super + F2
 
 alt + return
   scratchpad kitty
