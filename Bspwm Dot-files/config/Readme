@@ -13,10 +13,24 @@ super + return
 
 alt + return
   scratchpad kitty
+  
+super + shift + P
+  scratchpad spotify-tui
 
 super + n
   thunar
   
 super + f1 
   for other keybinds using rofi
+  
+  #######################################3
+    you may need to install spotify-tui - tdrop and
+    -spotifyd as a deamon for spt
+    
+    yay everything and configure the supplied .config/spotifyd/spotifyd.conf 
+    with your username and password ( must have premium)
+    
+    supplied a script for lauching a tdrop terminal with it's own keybind to spawn it
+    
+    
 
