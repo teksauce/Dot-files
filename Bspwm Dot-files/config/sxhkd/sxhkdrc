@@ -196,6 +196,6 @@ super + shift + Return
 super + shift + p
   ~/.config/bspwm/scripts/spt
 
-#1password test
+#1password
 super + F2
 	1password
