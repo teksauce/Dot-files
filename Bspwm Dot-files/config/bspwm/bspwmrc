@@ -21,7 +21,8 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-bspc rule -a Steam desktop='^7'
+bspc rule -a Steam desktop='^7' follow=on
+bspc rule -a 1Password sticky=on state=floating rectangle=1200x750+310+180
 
 # Custom rules
 bspc rule -a scratchpad sticky=on state=floating rectangle=900x550+500+270
@@ -54,7 +55,9 @@ nitrogen --restore &
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 
 # Picom
+killall picom
 picom --config .config/picom/picom.conf -b &
+
 # Network Applet
 nm-applet --indicator &
 
@@ -65,5 +68,6 @@ xsetroot -cursor_name left_ptr &
 ~/.config/bspwm/scripts/low_bat_notifier.sh
 
 #1password to manage passwords and stuff
-1Password
+#1Password
+
 
