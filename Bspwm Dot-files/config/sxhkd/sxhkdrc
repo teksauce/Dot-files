@@ -182,11 +182,12 @@ super + Print
 super + w 
   firefox
 
+#ranger
 super + n
-  thunar  
+  .config/bspwm/scripts/ranger  
 
 super + F1
-  ~/.config/bspwm/scripts/keybindings_rofi.sh
+  ~/.config/bspwm/scripts/keybindings_rofi.shO
 
 # Scratchpad
 super + shift + Return
@@ -195,7 +196,3 @@ super + shift + Return
 # Spotify tui
 super + shift + p
   ~/.config/bspwm/scripts/spt
-
-#1password
-super + F2
-	1password
