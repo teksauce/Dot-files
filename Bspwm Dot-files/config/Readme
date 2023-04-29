@@ -1,8 +1,17 @@
 //I'm using picom-git for the blur and transparency
 
+//CHMOD +X EVERYTHINNNNGGGG
+** I need to make a script to otomate this (SOON!)
+
+
 picom-git
 
 //Might need some fonts for polybar // pretty much it
+
+// For scratchpad
+xdo
+xdotool
+
 
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
