@@ -19,11 +19,17 @@ sudo touch (filename)
 Utility Keyboard Shortcuts
 ###################
 
+->Open a Ranger terminal using xfce4-terminal/ scratch pad like
+super + shift + n
+
 -> Open terminal (kitty)
 Super + Return
 
 ->Open Scratchpad terminal 
-alt + return
+super + shift + return
+
+->Open Spotify-tui in a kitty terminal / scratchpad like
+super + shift + P
 
 -> App launcher (Rofi)
 Super + d
